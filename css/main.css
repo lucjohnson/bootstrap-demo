@@ -14,6 +14,15 @@ h1, h2, h3, h4, .lead {
 nav li {
 	list-style: none;
 	display: inline;
+	padding-right: 2em;
+}
+
+footer{
+	position: fixed;
+	bottom: 0;
+	right: 0;
+	width: 250px;
+	background-color: yellow;
 }
 
 @media (min-width: 992px) {
@@ -21,6 +30,7 @@ nav li {
 		font-size: 24px;
 		color: red;
 	}
+}
 
 @media (max-width: 991px) {
 	.lead {
