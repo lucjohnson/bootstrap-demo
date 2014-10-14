@@ -7,8 +7,11 @@
     <title>Bootstrap 101 Template</title>
     <link rel="icon" href="./img/favicon.ico">
 
-    <!-- Bootstrap -->
-    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <!-- hotlink to Bootstrap's minified stylesheet -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
+
+    <!-- our style to override the bootstrap style -->
+    <link rel="stylesheet" href="./css/main.css" />
 
 
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
@@ -21,13 +24,21 @@
   <body>
     <div class="container">
       <h1>Hello, Bootstrap world!</h1>
+      <p class="lead">Let's make some responsive magic</p>
       <ul>
         <li><a href="./grids.html">Grids</a></li>
         <li><a href="./theme.html">Theme</a></li>
         <li><a href="./navbar.html">Navbar</a></li>
         <li><a href="./responsive.html">Responsive</a></li>
       </ul>
-    </div>
+      <div class="row">
+        <div class="col-md-6">
+          content for column 1
+        </div>
+        <div class="col-md-6">
+          content for column 2
+        </div>
+      </div><!-- /row -->
 
     </div>
 
